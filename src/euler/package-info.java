@@ -1,0 +1,8 @@
+/**
+ * 
+ */
+/**
+ * @author seanbucholtz
+ *
+ */
+package euler;
