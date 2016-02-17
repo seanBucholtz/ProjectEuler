@@ -101,6 +101,9 @@ public class Prime {
 	 */
 	private static int[] toIntArray(String ints) throws NumberFormatException{
 		String[] intsStrArr = ints.split(",");
+		if(ints.length() == 0) {
+			return new int[0];
+		}
 		int[] intsArr = new int[intsStrArr.length];
 		for(int i = 0; i < intsStrArr.length; i++) {
 			String intsStr = intsStrArr[i];
